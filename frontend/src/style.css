@@ -1,4 +1,4 @@
-html {
+/* html {
   background-color: rgba(27, 38, 54, 1);
   text-align: center;
   color: white;
@@ -23,4 +23,13 @@ body {
 #app {
   height: 100vh;
   text-align: center;
+}
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+
+  /* なぜか下に少しはみ出てスクロールバーが出てしまうので、見切れさせる */
+  /* overflow-y: hidden; */
 }
