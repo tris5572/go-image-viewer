@@ -1,3 +1,4 @@
+import { Println } from "@wails/main/App";
 import styled from "styled-components";
 
 const Img = styled.img`
@@ -11,6 +12,7 @@ const Img = styled.img`
 `;
 
 type Props = {
+  /** 表示する画像のURLやパスか、BASE64エンコーディングされた画像データ */
   src: string;
 };
 
